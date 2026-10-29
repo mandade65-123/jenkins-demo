@@ -16,7 +16,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'test -s missing.txt'
+                sh 'test -s app.txt'
                 echo 'Test passed'
             }
         }
